@@ -1,0 +1,22 @@
+
+# resource
+- classification
+  - String
+- author_id
+  - String 
+- last_update_time
+  - type Date
+- title
+  - type String
+- content
+  - type String
+- like_count
+  - type Number
+- read_count 
+- collection_count
+- comments
+  - comment
+    - commenter_id
+      - type String
+    - comment_content
+      - type String

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+        <button onclick="handleClick()">立即下载</button>
+<iframe name="myIframe" style="display:none"></iframe>
+<script>
+	const handleClick = () => {
+		window.open('http://localhost:3000/test/download/1.jpg', 'myIframe');
+	}
+</script>
+
+        
+</body>
+
+</html>

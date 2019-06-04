@@ -1,0 +1,34 @@
+{
+  "name": "share_knowledge_everywhere",
+  "version": "1.0.0",
+  "description": "旨在建设一个开放，免费，互动的知识分享网站",
+  "main": "index.js",
+  "author": "刘耀惠",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "ejs": "^2.6.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.7.0",
+    "koa-better-body": "^3.0.4",
+    "koa-body": "^4.1.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-generic-session": "^2.0.1",
+    "koa-jwt": "^3.5.1",
+    "koa-redis": "^3.1.3",
+    "koa-router": "^7.4.0",
+    "koa-send": "^5.0.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.0",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^5.4.22",
+    "nodemailer": "^6.1.0",
+    "nodemon": "^1.18.10",
+    "validator": "^10.11.0"
+  }
+}
