@@ -10,7 +10,7 @@
     "start": "nodemon app.js"
   },
   "dependencies": {
-    "bcrypt": "^3.0.5",
+    "bcrypt": "^5.0.0",
     "ejs": "^2.6.1",
     "gravatar": "^1.8.0",
     "jsonwebtoken": "^8.5.1",
